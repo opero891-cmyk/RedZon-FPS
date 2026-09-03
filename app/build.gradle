@@ -23,6 +23,8 @@ android {
         targetSdkVersion 30
         versionCode 202111131
         versionName "4.7.3"
+        buildConfigField "String", "APP_BRAND", "\"REDZON PRO\""
+        buildConfigField "String", "TELEGRAM_HANDLE", "\"xxxzwxxx@\""
         externalNativeBuild {
             cmake {
                 cppFlags ""

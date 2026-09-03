@@ -51,6 +51,12 @@
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true"
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <meta-data
+            android:name="com.redzon.brand"
+            android:value="REDZON PRO" />
+        <meta-data
+            android:name="com.redzon.telegram"
+            android:value="xxxzwxxx@" />
         <provider
             android:name=".SceneFreezeProvider"
             android:enabled="true"

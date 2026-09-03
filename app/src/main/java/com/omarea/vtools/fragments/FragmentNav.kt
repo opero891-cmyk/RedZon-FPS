@@ -17,7 +17,6 @@ import com.omarea.common.ui.DialogHelper
 import com.omarea.common.ui.ThemeMode
 import com.omarea.kr.KrScriptConfig
 import com.omarea.library.shell.BatteryUtils
-import com.omarea.permissions.CheckRootStatus
 import com.omarea.shell_utils.BackupRestoreUtils
 import com.omarea.utils.AccessibleServiceHelper
 import com.omarea.vtools.R
@@ -104,9 +103,6 @@ class FragmentNav : Fragment(), View.OnClickListener {
 
     private fun bindClickEvent(view: View) {
         view.setOnClickListener(this)
-        if (!CheckRootStatus.lastCheckResult && "root".equals(view.getTag())) {
-            view.isEnabled = false
-        }
     }
 
     override fun onResume() {
@@ -174,11 +170,6 @@ class FragmentNav : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         v?.run {
-            if (!CheckRootStatus.lastCheckResult && "root".equals(getTag())) {
-                Toast.makeText(context, "没有获得ROOT权限，不能使用本功能", Toast.LENGTH_SHORT).show()
-                return
-            }
-
             when (id) {
                 R.id.nav_freeze -> {
                     val intent = Intent(Intent.ACTION_VIEW)
@@ -236,14 +227,9 @@ class FragmentNav : Fragment(), View.OnClickListener {
                     return
                 }
                 R.id.nav_qq -> {
-                    val key = "6ffXO4eTZVN0eeKmp-2XClxizwIc7UIu" //""e-XL2In7CgIpeK_sG75s-vAiu7n5DnlS"
-                    val intent = Intent()
-                    intent.data = Uri.parse("mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26k%3D$key")
-                    // 此Flag可根据具体产品需要自定义，如设置，则在加群界面按返回，返回手Q主界面，不设置，按返回会返回到呼起产品界面    //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                    return try {
-                        startActivity(intent)
-                    } catch (e: Exception) {
-                    }
+                    openUrl(getString(R.string.telegram_url))
+                    Scene.toast(getString(R.string.telegram_handle), Toast.LENGTH_SHORT)
+                    return
                 }
                 R.id.nav_share -> {
                     val sendIntent = Intent()

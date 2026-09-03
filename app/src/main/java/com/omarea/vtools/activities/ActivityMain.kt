@@ -32,7 +32,6 @@ import com.omarea.vtools.dialogs.DialogPower
 import com.omarea.vtools.fragments.FragmentDonate
 import com.omarea.vtools.fragments.FragmentHome
 import com.omarea.vtools.fragments.FragmentNav
-import com.omarea.vtools.fragments.FragmentNotRoot
 import kotlinx.android.synthetic.main.activity_main.*
 
 class ActivityMain : ActivityBase() {
@@ -139,11 +138,7 @@ class ActivityMain : ActivityBase() {
 
         val tabIconHelper2 = TabIconHelper2(tab_list, tab_content, this, supportFragmentManager, R.layout.list_item_tab2)
         tabIconHelper2.newTabSpec(getString(R.string.app_nav), getDrawable(R.drawable.app_more)!!, FragmentNav.createPage(themeMode))
-        tabIconHelper2.newTabSpec(getString(R.string.app_home), getDrawable(R.drawable.app_home)!!, (if (CheckRootStatus.lastCheckResult) {
-            FragmentHome()
-        } else {
-            FragmentNotRoot()
-        }))
+        tabIconHelper2.newTabSpec(getString(R.string.app_home), getDrawable(R.drawable.app_home)!!, FragmentHome())
         tabIconHelper2.newTabSpec(getString(R.string.app_donate), getDrawable(R.drawable.app_donate)!!, FragmentDonate())
         tab_content.adapter = tabIconHelper2.adapter
         tab_list.getTabAt(1)?.select() // 默认选中第二页
@@ -244,9 +239,6 @@ class ActivityMain : ActivityBase() {
 
     public override fun onPause() {
         super.onPause()
-        if (!CheckRootStatus.lastCheckResult) {
-            finish()
-        }
     }
 
     override fun onDestroy() {
