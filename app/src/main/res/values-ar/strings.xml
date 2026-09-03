@@ -1,0 +1,453 @@
+<resources>
+    <string name="require_restart_app">الحاجة إلى إعادة إطلاق الطلبات لكي تكون فعالة</string>
+    <integer name="opacity">0</integer>
+    <string name="format_hh_mm">%02d:%02d</string>
+    <string name="btn_cancel">الإلغاء</string>
+    <string name="btn_not_now">متكررة</string>
+    <string name="btn_delete">تحذف</string>
+    <string name="btn_dontshow">No longer indicated</string>
+    <string name="btn_confirm">تحديد الهوية</string>
+    <string name="btn_no">لا</string>
+    <string name="btn_yes">نعم</string>
+    <string name="btn_continue">الاستمرارية</string>
+    <string name="btn_modify_confirm">إقرار التغييرات</string>
+    <string name="btn_help">المساعدة</string>
+    <string name="btn_iknow">معروف</string>
+    <string name="btn_exit">الانسحاب</string>
+    <string name="btn_hide">Tibet</string>
+    <string name="btn_resume">الاسترداد</string>
+    <string name="btn_skip">مرشح</string>
+    <string name="btn_retry">إعادة الاختبار</string>
+    <string name="btn_apply">التطبيقات</string>
+    <string name="btn_reboot">التجديد</string>
+    <string name="btn_resume_selected">إعادة الانتخابات</string>
+    <string name="error_su_timeout">عند الانتظار، يرجى ضمان أن مدير الروت الخاص بك في المكتب الخلفي وإعادة اختبار!\n\nto ensure that you do not prevent the &amp;quot; authorized administrators &amp;quot; (SuperSu, Magsk Manager, etc.) from starting and to allow back-office windows, displaying suspended windows, etc. وإذا لم تكن هناك صناديق للحوار المأذون به، يوصى بإعادة اختبار الهاتف المحمول!\n</string>
+    <string name="error_root">الشكوى، غير الممنوحة</string>
+    <string name="error_root_desc">فبدون كفاءة المكتبة، ستضيع ملامح كثيرة.\nإذا فوّت تفويض السلطة، أو لم ترى النافذة، يرجى العثور على مُنظّم الروت الخاص بك مع مكابح يدوية للسماح لسين باستخدام كفاءات المكتبة.</string>
+    <string name="question_install_busybox">هَلْ بوكس رُكبَ؟</string>
+    <string name="question_install_busybox_desc">هل يبدو أن هواتفكم المحمولة لم يتم تركيبها في صندوق مزدحم، مما قد يؤدي إلى عدم صلاحية Scene وتركيبها على الفور (محتاجة لنظام التغيير)؟</string>
+    <string name="share_link">لقد حاولت أيضاً اختبار عظمة سيني وأعتقد أنه من الخطأ التحميل:\nhttp://vtools.omarea.com/</string>
+    <string name="app_name">Scene4</string>
+    <string name="app_name_short">Scene4</string>
+    <string name="app_name_mode_switch">Scene - fast-tracking model</string>
+    <string name="accessibility_service_description">Scene增强服务\n你需要激活本服务，才能使用以下功能：\n\n1.动态响应（根据前台应用自动调整性能）.\n\n2.自动行为（在开关屏幕时切换网络或切换应用时回收进程）.\n\n3.自动安装（安装第三方应用时自动点击下一步）</string>
+    <string name="backup_action_title_boot">But guided</string>
+    <string name="backup_action_desc_boot">الخنزير محمول في استخدام المساندة، المستنسخة/المرتجلة/الخنزير</string>
+    <string name="restore_action_title_boot">رفع إلى بوت</string>
+    <string name="restore_action_desc_boot">الاختيار للأحذية</string>
+    <string name="backup_action_title_rec">الاسترداد</string>
+    <string name="backup_action_desc_rec">الاسترداد في استخدام الدعم، المستنسخ/المرتجع/الاسترداد(ز)</string>
+    <string name="restore_action_title_rec">Updated Recovery</string>
+    <string name="restore_action_desc_rec">Selected into recovery.img</string>
+    <string name="backup_action_title_dtbo">القطاع الفرعي</string>
+    <string name="backup_action_desc_dtbo">أما القطاع الفرعي لـ &amp;quot; DTBO &amp;quot; فهو مرآة مستنسخة، مستنسخة/مكررة/مرتجلة/دتبو.</string>
+    <string name="restore_action_title_dtbo">طلاء في مرآة دي تيبو</string>
+    <string name="restore_action_desc_dtbo">Selected into dtbo.img</string>
+    <string name="backup_action_title_persist">القطاع الفرعي الفارسي</string>
+    <string name="backup_action_desc_persist">المقياس الفرعي الفارسي هو مرآة غير متجانسة، مستنسخة/مرتجلة/مصدرة.</string>
+    <string name="restore_action_title_persist">المرآة الفارسة</string>
+    <string name="restore_action_desc_persist">Selected intopersist.img</string>
+    <string name="backup_file_exists">وثائق التغطية؟</string>
+    <string name="backup_img_exists">/sdcard/%s.imgalready exists and is it covered by the documentation?\n</string>
+    <string name="backup_space_small">الحيز غير الكافي للتخزين، يرجى حجز ما لا يقل عن 200 متر المتاح</string>
+    <string name="autobooster_tab_details">القائمة السوداء</string>
+    <string name="autobooster_tab_system_scene">المناظر الطبيعية للنظام</string>
+    <string name="auto_clear_ignore_chager">الإهمال الإضافي</string>
+    <string name="auto_clear_ignore_chager_desc">وبموجب شرط السلطة، تأخر الاختناق إلى أن تكتمل التهمة</string>
+    <string name="settings_disable_selinux">SeLinux Tolerance Model</string>
+    <string name="settings_disable_selinux_desc">واستُعيض عن &amp;quot; سيلينوكس &amp;quot; بنموذج التسامح (جزء من البرمجيات المسماة &amp;quot; سيلينوكس &amp;quot; )، ولم يكن لولاية سيلينكس أي تأثير على سيني، كما يمكن إعادة إطلاق نموذج التسامح.</string>
+    <string name="settings_theme">الموضوع</string>
+    <string name="settings_theme_wallpaper">استخدام ورق الجدار</string>
+    <string name="settings_theme_wallpaper_desc">استخدام ورق الجدار النظامي كخلفية للنافذة، مع بيان النطاق شبه الشفاف</string>
+    <string name="settings_debug_layer">نافذة تجريبية</string>
+    <string name="settings_debug_layer_desc">الشعار الذي يبين تطبيق قرار المشهد</string>
+    <string name="settings_help_icon">Champions</string>
+    <string name="settings_help_icon_desc">بيان الوصف الوظيفي (رقم الطلب) حسب الوظيفة</string>
+    <string name="settings_auto_exit">الانسحاب الآلي في وقت غير عادي</string>
+    <string name="settings_auto_exit_desc">إغلاق العملية آليا عندما تكون العملية التنفيذية غير عادية، تجنبا للكارثة</string>
+    <string name="settings_logcat_title">السجل الخاطئ</string>
+    <string name="settings_logcat_desc">When Scene was erroneously recuperated, the following logs were captured through the logo and sent to the developer to resolve the problem</string>
+    <string name="settings_black_notification">معلومات أساسية</string>
+    <string name="settings_black_notification_desc">وعندما يكون النظام في النموذج الليلي، يُظهر الإخطار الدائم للمشهد كخلفية سوداء (لا تتطلب الحالة العادية فتح الخيار).</string>
+    <string name="menu_home">لمحة عامة</string>
+    <string name="menu_paypal">المساهمات</string>
+    <string name="menu_scene_mode">نموذج معلومات أساسية</string>
+    <string name="menu_app_scene">المناظر الطبيعية للتطبيقات</string>
+    <string name="menu_system_scene">المناظر الطبيعية للنظام</string>
+    <string name="menu_auto_click">الضربات الآلية</string>
+    <string name="menu_cpu_modes">تشكيلة الأداء</string>
+    <string name="menu_freeze">تطبيق التحيز</string>
+    <string name="menu_battery_stats">إحصاءات الاستهلاك الكهربائي</string>
+    <string name="menu_core_control">CPU Control</string>
+    <string name="menu_sundry">تركيبات متنوعة</string>
+    <string name="menu_additional">الوظائف الإضافية</string>
+    <string name="menu_applictions">إدارة التطبيقات</string>
+    <string name="menu_swap">SWAP</string>
+    <string name="menu_battery">مراقبة إعادة الشحن</string>
+    <string name="menu_charge">إحصاءات التغذية</string>
+    <string name="menu_custom_command">أوامر تحديد المصير</string>
+    <string name="menu_processes">إدارة العمليات</string>
+    <string name="menu_fps_chart">سجلات المعدل</string>
+    <string name="menu_app_magisk">مساعد فيزيك</string>
+    <string name="menu_gesture">الملاحة الكهربائية</string>
+    <string name="menu_xposed_app">التطبيقات</string>
+    <string name="menu_xposed_global">المجموع</string>
+    <string name="menu_filter">مرايا الشاشة</string>
+    <string name="menu_img">الدعم</string>
+    <string name="menu_qq">الماشية</string>
+    <string name="menu_menu_title">تبادل التغذية</string>
+    <string name="menu_share">تقاسم الطلبات</string>
+    <string name="menu_miui_thermal">MIUI Win</string>
+    <string name="system">النظم</string>
+    <string name="accessibility_running">تشغيل خدمات الدعم</string>
+    <string name="accessibility_stoped">تعزيز خدمات الدعم بالنقر هنا</string>
+    <string name="battery_title">البطاريات:</string>
+    <string name="battery_title_desc1">وإذا أريد استخدام وظيفة &amp;quot; إعادة الشحن &amp;quot; ، فإن من المهم الإبقاء على المكتب الخلفي للمشهد.</string>
+    <string name="battery_reality_limit">In fact, electricity flow is restricted:</string>
+    <string name="battery_pd_allowed">USB-PD</string>
+    <string name="battery_pd_allowed_desc">ويحدّد التوافق بين اليدين والتشغيل ما إذا كان ينبغي تفعيل إعادة الشحن من قبل وكالة USB-PD دون الحاجة إلى اليد. ويمكن أن تؤدي التحولات اليدوية إلى بطء وتيرة إعادة الشحن وبالتالي لا يسمح لها بالتغيير.</string>
+    <string name="battery_pd_active_state">الحالة الراهنة:</string>
+    <string name="battery_pd_active_1">إمكانية الوصول إلى نموذج المسار السريع للشرطة</string>
+    <string name="battery_pd_active_0">نموذج المسار السريع لجهاز PD</string>
+    <string name="battery_auto_boot_desc">حسنا، إذا كنت ترغب هاتفك المحمول لإعادة تشغيل هذه المهمة تلقائيا، يرجى السماح Scene مفتوحة!</string>
+    <string name="battery_qc_rehoot_desc">تم حظر الخدمة المعجلة، وقد تحتاج الهواتف النقالة إلى إعادة إطلاقها من أجل إعادة السكوت</string>
+    <string name="battery_pd_active_unknown">غير معروف</string>
+    <string name="battery_uevent_title">bms/uevent</string>
+    <string name="battery_usb_uevent_title">مبتدئ</string>
+    <string name="battery_night_mode_time">%02d:%02d</string>
+    <string name="battery_night_mode">معدل التغذية الديناميكية</string>
+    <string name="battery_night_mode_desc">To slow recharge\n\nand proactively reduce the rate of recharge at night</string>
+    <string name="battery_time_get_up">بداية</string>
+    <string name="battery_time_sleep">وقت الاستيعاب</string>
+    <string name="battery_manual_control">مراقبة اليد</string>
+    <string name="battery_charge_disable">حظر الإعادة</string>
+    <string name="battery_charge_resume">إعادة الشحن</string>
+    <string name="battery_usage_history">تسجيل البطاريات</string>
+    <string name="battery_view_history">الاطلاع على السجلات</string>
+    <string name="battery_delete_history">تحذف السجلات</string>
+    <string name="battery_bp">الحماية الإضافية</string>
+    <string name="battery_bp_desc">\n\nNote that long-term use may lead to an electrical failure</string>
+    <string name="battery_bp_level_desc">حدود الكهرباء (%)</string>
+    <string name="battery_qc_charger">شبكة التغذية</string>
+    <string name="battery_bp_status">لم تعد نسبة مئوية من الـ%dمستردة من%d</string>
+    <string name="battery_qc_charger_desc">调整充电速度限制。疯狂调高毫无意义，因为并不会取得实际效果，请在有效范围内调节数值\n\n注意：上限数值仅供参考，请以实际充电速度为准！</string>
+    <string name="battery_charge_disabled">وظائف إعادة الشحن محظورة!</string>
+    <string name="battery_charge_resumed">إعادة التشغيل</string>
+    <string name="battery_forgery">تنكر البيانات</string>
+    <string name="battery_forgery_ratio">كابلات البطارية</string>
+    <string name="battery_forgery_full_now">القدرات الشاملة</string>
+    <string name="battery_step_charge">رفع الرتبة</string>
+    <string name="battery_step_charge_desc">系统根据电量分阶段调整充电速度上限，有助于保护电池寿命\n\n一般建议保持默认设置</string>
+    <string name="battery_exec_option">الغرض من التخزين</string>
+    <string-array name="battery_exec_options">
+        <item>تخفيض السرعة</item>
+        <item>التغذية المعجلة</item>
+        <item>البقاء</item>
+    </string-array>
+    <string name="battery_exec_desc">المشهد ينفذ التغييرات في أوقات مختلفة على أساس اختيارك الفرق كما يلي: تخفض شركة\n\nمعدل إعادة تنشيط\nكنسبة مئوية من التغير في موصلات الأجهزة والأحجام الكهربائية: التغيرات في البطاريات، وإعادة تركيب معدل الرفع\nإلى الوفاة: إعادة الشحن على [محلية]</string>
+    <string name="battery_status_discharging">كابل غير مشحن</string>
+    <string name="battery_status_charging">كابل النحاس</string>
+    <string name="battery_status_full">Cloud</string>
+    <string name="battery_status_not_charging">كابل غير مشحن</string>
+    <string name="battery_status_unknown">غير معروف</string>
+    <string name="battery_status_sum">(Urounded%smAh)</string>
+    <string name="electricity_unit_adj">معايرة وحدة تدفق</string>
+    <string name="electricity_unit_adj_desc">وفيما يلي معدل التغذية الحالي:</string>
+    <string name="electricity_unit_as">كما هو مبين:</string>
+    <string name="electricity_unit_adj_desc2">تُظهر إعادة التغذية على أنها إيجابية وتظهر سلبية</string>
+    <string name="applist_warn">وتقتضي وظيفة دعم البيانات التطبيقية المقدمة حالياً تكاملاً منهجياً لإطار العمل المزدحم &amp;quot; Toybox &amp;quot; ، باستخدام البيانات المضغوطة من طراز Star+gz، إذا دعمها النظام، من أجل زيادة معدلات الضغط، والبيانات الاحتياطية في إطار &amp;quot;/البيانات/التطبيقات &amp;quot; ، وعدم ضمان التوافق مع جميع النظم والتطبيقات.\n\nوثائق الدعم التطبيقي في السجل/التكرار/الاستجابات/التطبيقات (نظام أندرويد 11+ لا يدعم وظيفة الدعم)</string>
+    <string name="dialog_addin_device_warn">لا ينبغي إدخال المعلومات الهاتفية في رموز خاصة!\nhas a machine code for the compatible application of the variables module, which can be used once reprinted!</string>
+    <string name="dialog_addin_device_desc">修改后可点击“还原”-&gt;“确认”恢复修改前的机型，卸载Scene会导致备份的机型信息丢失，请务必还原后再卸载！\n\n或者，你也可以通过重新刷入完整ROM来恢复机型信息！\n\n使用DualBootPatcher多系统软件切勿使用本功能修改机型！！！</string>
+    <string name="dialog_addin_device_inner">النموذج السابق</string>
+    <string name="title_activity_shortcut">البداية السريعة</string>
+    <string name="title_activity_freeze">تطبيق التحيز</string>
+    <string name="title_activity_online">Scene-Online</string>
+    <string name="shortcut_disabled">غير متاحة</string>
+    <string name="shortcut_p1">نمط السلطة في المقاطعات</string>
+    <string name="shortcut_p1_long">Sex energy mix - provincial electricity</string>
+    <string name="shortcut_p2">نموذج الرصيد</string>
+    <string name="shortcut_p2_long">تشكيلة الأداء - التوازن</string>
+    <string name="shortcut_p3">نموذج الأداء</string>
+    <string name="shortcut_p3_long">تشكيلة الأداء - الأداء</string>
+    <string name="shortcut_p4">نموذج سريع جدا</string>
+    <string name="shortcut_p4_long">الاصطناعية سريعة جدا</string>
+    <string name="device_unsupport">هذه المهمة لا تدعم معداتك</string>
+    <string name="addin_fullscreen_on">اختبار الخطوبة</string>
+    <string name="addin_fullscreen_on_desc">الإخفاء الآلي، الملاحة</string>
+    <string name="addin_flyme_static_blur">تخفيض Flyme6</string>
+    <string name="addin_flyme_static_blur_desc">وقد حُظرت الآثار غير الواضحة في الوقت الحقيقي لمركز إخطار Flyme6 من أجل الحد من دخول المركز في المباريات أو البث بالفيديو بحلول منتصف الساعة الأدنى، وقد يتطلب أيضا إعادة إطلاقه.</string>
+    <string name="addin_miui_hide_search">MIUI9 Circular Centre search</string>
+    <string name="addin_miui_hide_search_desc">تقصير في إخفاء صندوق البحث التابع لمركز الإخطار MIUI9، مع بدء التشغيل</string>
+    <string name="addin_dpi">تغيير في القرار</string>
+    <string name="addin_dpi_desc">يمكن أن يؤدي الهاتف الخلوي المحدد للذات أو القرار إلى عدم وجود أي خطأ في المعدات أو عدم وجودها</string>
+    <string name="addin_deviceinfo">التعديل</string>
+    <string name="addin_deviceinfo_desc">عن طريق تعديل نوع البناء المزيف، بعض الهواتف المحمولة قد لا تكون قادرة على فتح أو الظهور في بوغ</string>
+    <string name="addin_mac">تعديل عنوان لجنة الهدنة العسكرية (البرنامج 1)</string>
+    <string name="addin_mac_desc">شبكة &amp;quot; وايف &amp;quot; لتحديد النفس، شركة كارماك، لا تدعم سوى بعض المعدات</string>
+    <string name="addin_mac_2">تعديل عنوان لجنة الهدنة العسكرية (البرنامج 2)</string>
+    <string name="addin_mac_desc_2">شبكة المنظمة العالمية للفرانكوفونية المُحددة ذاتياً، شركة CarMAC، معدات مُدعمة جزئياً فقط، أكثر ملاءمة لأندرويد Q</string>
+    <string name="addin_force_dex_compile">Mandex2oat Translation</string>
+    <string name="addin_force_dex_compile_desc">وتُترجم مادة Dex2oat إلى تطبيقات، مما يقلل من شغل اليورانيوم المستنفد وRAM وقت العمل. وقد تتطلب عملية الترجمة نصف ساعة ويجري تحديث النظام وإعادة تصميمه.</string>
+    <string name="addin_dexopt_helpinfo">在Android N以后，为了减少应用空间占用和提高安装效率，在安装应用时不再对dex进行完整编译，导致运行速度下降。通过本功能选中“编译”将在安装应用时使用speed模式进行编译，安装速度显著变慢，但是运行时更加流畅(提升约20%，对游戏帧率无提升！)。\n\n以Oreo系统下斗鱼TV客户端为例，全新安装时base.odex仅为6.8MB，编译后增大到103MB。\n\n但国内许多应用采用热更新技术，运行时经常需要从服务器下载最新代码并解析渲染，这是这些应用启动慢或启动后卡顿的主要原因。因此dex2oat编译并不能为这类应用带来明显的性能提升！</string>
+    <string name="addin_dex2oat_helplink">https://source.android.com/devices/tech/dalvik/jit-compiler?hl=zh-cn</string>
+    <string name="addin_pm_dexopt">تطبيق استراتيجية سداسي كلور البنزين</string>
+    <string name="addin_pm_dexopt_desc">Applying to Android N+, adjusting the dex2oat translation strategy for the installation of the Package Manager application and re-engineering the system</string>
+    <string name="addin_wifi">WIFI</string>
+    <string name="addin_wifi_desc">Wpa supplicant.conf or WifiConfigStore.xml</string>
+    <string name="addin_bpc">نسقت شركة &amp;quot; بوث &amp;quot; للأداء</string>
+    <string name="addin_bpc_desc">The closure of some of the options in Performance Boost Configie avoids the high frequency of CPUs resulting in electricity consumption, but the retention of the application start-up fluctuation would slightly reduce the test. متجدد!</string>
+    <string name="addin_continue">الاستمرارية</string>
+    <string name="swap_on_close">The ongoing closure of SWAP may be very slow</string>
+    <string name="swap_current_state">الحالة الراهنة:</string>
+    <string name="swap_memory_info">معلومات الذاكرة</string>
+    <string name="swap_vmstat">VM Stat</string>
+    <string name="swap_io">SWAP IO</string>
+    <string name="swap_swappiness_desc">ملاحظة: :: الاستخدام الأكثر نشاطاً لبرنامج &amp;quot; ساواب &amp;quot; من جانب القيمة الرقمية العالية في\n، مما يجعل من الصعب فهم أثر التدفق والتكيف حسب الاقتضاء</string>
+    <string name="swap_swappiness">Swappiness</string>
+    <string name="swap_zram">ZRAM</string>
+    <string name="swap_zram_adjustment">التسويات</string>
+    <string name="swap_zram_desc">Note: ZRAM is a realization of SWAP. وستضغط بعض البيانات في الداخل عندما يصبح التخزين الداخلي غير كاف. غير أن وحدة منع الحمل تصبح مرهقة.</string>
+    <string name="swap_zram_comp_options">طريقة الضغط</string>
+    <string name="swap_zram_comp_algorithm_wran">لا تغيير</string>
+    <string name="swap_zram_comp_algorithm_wran_desc">ZRAM هو في الاستخدام ولا يمكن تغيير الضغط.\n\n, if required for the establishment to enter into force, please call the &amp;quot; adjustment &amp;quot; to the next hit</string>
+    <string name="swap_swap">Swapfile</string>
+    <string name="swap_create">الخلق</string>
+    <string name="swap_start">الإطلاق</string>
+    <string name="swap_stop">الإغلاق</string>
+    <string name="swap_delete">تحذف</string>
+    <string name="swap_zram_preferred">Reuse of ZRAM</string>
+    <string name="swap_zram_equitable">استخدمت في نفس الوقت مع زرام</string>
+    <string name="swap_swap_preferred">الأولوية على استخدام زرامارك</string>
+    <string name="swap_use_loop">معدات الكتابة</string>
+    <string name="swap_use_loop_desc">如果不开启此项也能正常使用SWAP，就没必要开。\n\n除非是无法启动SWAP，或启动SWAP后手机死机，才需要开启此选项！\n\n例如：小米的SDM845机型在Android9.0，需要勾选此项才能正常使用SWAP</string>
+    <string name="swap_swap_desc">Note: Swapfile is similar to the virtual inner storage of Windows, and exchange efficiency is limited to magnetic disk performance. يُرجى استخدام هذه الوظيفة على هواتف محمولة صغيرة أو تعمل تحت الفضاء لمنع الشيخوخة بسرعة كبيرة!</string>
+    <string name="swap_auto_start">الافتتاح (للسماح للمشهد بالبدء)</string>
+    <string name="swap_auto_start_desc">ملاحظة: يجب أن تسمحي لـ (سين) بتفعيله والبداية القادمة ستدخل حيز النفاذ</string>
+    <string name="swap_zram_stat">ZRAM state</string>
+    <string name="swap_outside_module">وحدة الملحق الخارجي (ماغيسك)</string>
+    <string name="swap_outside_module_desc">وقد وضعتم إطار ماغسك، واقترحتم استخدام صيغة محدثة من الوحدات الإضافية لتعزيز موثوقية مراقبة برنامج العمل الشامل مع الأدوار الرئيسية التالية:</string>
+    <string name="swap_outside_effect1">1. Increase the speed of the relaunching of mobile phones and the installation of ZRAM, Swapfile</string>
+    <string name="swap_outside_effect2">2. Adjustment of the LMK parameters based on equipment RAM capacity to enhance the re-entry capacity</string>
+    <string name="swap_outside_effect3">3. Adjustment of VM parameters to increase the active use of ZRAM, Swapfile</string>
+    <string name="swap_module_install_desc">بعد تحميل الوحدة، يرجى تحديثها من تلقاء نفسها في مدير ماغسك وإعادة تشغيل هاتفها المحمول!</string>
+    <string name="swap_zram_stat_desc">وعادة ما يتراوح معدل الضغط بين 20 و 45 في المائة</string>
+    <string name="swap_zram_stat_format">数据压缩算法：%s\n原始数据大小：%s\n压缩后的大小：%s\n物理内存占用：%s\n最高内存占用：%s\n内存占用限制：%s\n压缩率　　　：%s</string>
+    <string name="swap_zram_stat_format2">数据压缩算法：%s\n原始数据大小：%s\n压缩后的大小：%s\n压缩率　　　：%s</string>
+    <string name="swap_zram_writback_stat">ZRAM Writeback\n回写块：%s\n已回写：%dMB\n总读取：%dMB\n总回写：%dMB</string>
+    <string name="swap_zram_compact_algorithm">طريقة الضغط</string>
+    <string name="swap_state_undefined">لم يُنشأ</string>
+    <string name="swap_state_created">لم يبدأ</string>
+    <string name="swap_state_using">في الاستخدام</string>
+    <string name="extra_free_kbytes">أكواب إضافية مجانية</string>
+    <string name="extra_free_kbytes_desc">此值指定Linux内核会额外保留多少物理内存，当内存不足时会立即开始压缩内存到SWAP/ZRAM，在可用内存回升到合理范围之前设备会明显变得缓慢\n\n简单地说extra_free_kbytes设置越大，则内存回收(swap或杀死进程)越积极，但不建议设置过大，以免浪费物理内存而加重磁盘/处理器负担！</string>
+    <string name="watermark_scale_factor">watermark_scale_factor</string>
+    <string name="watermark_scale_factor_desc">数值范围为0~1000，其中1000表示10%，表示内存水位线low/min/high三个数值之间各相差(物理RAM容量的)10%。\n\n例如(我的手机)：\npageSize=4KB\nmanaged=1951743(pages)\nmin_free_kbytes=10900(KB)\nwatermark_scale_factor=500\n\n此时min值为\n10900(KB)/4(PageSize)=2725(pages)\nlow值大约是\n1951743*5%+2725≈100312(pages)\nhigh值大约是\n1951743*10%+2725≈197899(pages)\n注：最终的low、high值，可能受extra_free_kbytes影响而偏大\n\n这个例子中，\nmin=2725=10MB\nlow=100312≈392MB\nhigh=197899≈773MB\n\n意味着，内存低于392M便会开始回收内存，直到可用内存高于773MB~</string>
+    <string name="on_execute_please_wait">قيد التنفيذ، يرجى الانتظار قليلا...</string>
+    <string name="please_wait">انتظر قليلا</string>
+    <string name="executed">مكتمل!</string>
+    <string name="file_creating">ورقة إنشاء</string>
+    <string name="zram_resizing">يجري إدخال تعديلات، ويلزم الصبر ...</string>
+    <string name="priority">الأولوية</string>
+    <string name="order">الأمر</string>
+    <string name="used">مستخدم</string>
+    <string name="size">الحجم</string>
+    <string name="type">النوع</string>
+    <string name="path">الطرق</string>
+    <string name="battery_low">كهرباء منخفضة، إعادة شحن في الوقت المناسب!</string>
+    <string name="sorry">الشكاوى</string>
+    <string name="powersave">نمط السلطة في المقاطعات</string>
+    <string name="balance">نموذج الرصيد</string>
+    <string name="performance">نموذج الأداء</string>
+    <string name="fast">نموذج سريع جدا</string>
+    <string name="powersave_short">السلطة الإقليمية</string>
+    <string name="balance_short">الرصيد</string>
+    <string name="performance_short">الأداء</string>
+    <string name="fast_short">سريع جدا</string>
+    <string name="app_selected_none">طلب واحد غير مختار</string>
+    <string name="help">المساعدة</string>
+    <string name="warn">تحذير</string>
+    <string name="more">زيادة الوعي</string>
+    <string name="not_support_config">تشكيلة نموذجية غير متاحة</string>
+    <string name="not_support_config_desc">الطلب ليس لديه نسخة مجهزة ذاتياً من هاتفك الخلوي ويمكنكم أن تختاروا ما إذا كان &amp;quot; الوصول عبر الإنترنت إلى البصمات &amp;quot; ملائماً لتحميل هواتفكم المحمولة، أو &amp;quot; معرفة المزيد &amp;quot; للنظر في تشكيلات محددة ذاتياً!</string>
+    <string name="first_start_select_config">لأول مرة، التشكيلة المفضلة</string>
+    <string name="config_online_options">اختيار البصمة الإلكترونية</string>
+    <string name="online_config_v1">yc9559 custom v1</string>
+    <string name="online_config_v2">yc9559 custom v2</string>
+    <string name="config_installed">!</string>
+    <string name="ro_product_model">مخرج</string>
+    <string name="ro_product_brand">مُنتج.</string>
+    <string name="ro_product_name">مُنتج.</string>
+    <string name="ro_product_device">مُنتج.</string>
+    <string name="ro_product_manufacturer">مُنتج</string>
+    <string name="auto_start">منذ البداية</string>
+    <string name="boot_after_auto_modify">التعديل الآلي بعد البدء</string>
+    <string name="core_control_helpinfo">ولدى بعض الهواتف النقالة آلية تكيف دينامية لبارامترات البارامترات، مما يؤدي إلى سرعة إبطال البارامترات المحددة ذاتياً، كما أن مراقبة درجة الحرارة تحد من ارتفاعك إلى تردد اليورانيوم المستنفد.</string>
+    <string name="shell_executor">تنفيذ البصمة</string>
+    <string-array name="default_powercfg_mode_options">
+        <item>نمط السلطة في المقاطعات</item>
+        <item>نموذج الرصيد</item>
+        <item>نموذج الأداء</item>
+        <item>نموذج سريع جدا</item>
+    </string-array>
+    <string-array name="sleep_powercfg_mode_options">
+        <item>نمط السلطة في المقاطعات</item>
+        <item>نموذج الرصيد</item>
+        <item>نموذج الأداء</item>
+        <item>الحالة</item>
+    </string-array>
+    <string-array name="powercfg_modes_filter">
+        <item>المجموع</item>
+        <item>السلطة الإقليمية</item>
+        <item>الرصيد</item>
+        <item>الأداء</item>
+        <item>سريع جدا</item>
+        <item>الثبات</item>
+        <item>الحالة</item>
+    </string-array>
+    <string-array name="powercfg_apptype_filter">
+        <item>المستخدمون</item>
+        <item>النظم</item>
+        <item>المجموع</item>
+    </string-array>
+    <string name="cgroup_mem_title">cgroup</string>
+    <string-array name="cgroup_mem_options">
+        <item>الاعتراف الضمني بالنظام</item>
+        <item>التطبيقات العامة</item>
+        <item>الأولويات</item>
+        <item>العمليات الهامة</item>
+        <item>المحطات المحددة المدة</item>
+        <item>إعادة تدوير التخزين الداخلي</item>
+    </string-array>
+    <string-array name="cgroup_mem_values">
+        <item />
+        <item>scene_lock</item>
+        <item>scene_perf</item>
+        <item>scene_fg</item>
+        <item>scene_bg</item>
+        <item>scene_cache</item>
+    </string-array>
+    <string name="title_activity_timing_task">المهام في الوقت المناسب</string>
+    <string name="title_activity_trigger">اللمسات</string>
+    <string name="title_activity_file_selector">يرجى اختيار الوثائق</string>
+    <string name="title_activity_folder_selector">طلب قائمة طويلة من الخيارات</string>
+    <string name="config_save_fail">عدم التكوين!</string>
+    <string name="boot_success">البدء المنجز</string>
+    <string name="notice_channel_boot">الالتزام الذاتي</string>
+    <string name="notice_channel_task">Scene Project mandate</string>
+    <string name="notice_task_completed">اكتملت ولاية المشروع</string>
+    <string name="boot_script_running">تنفيذ البصمة الذاتية</string>
+    <string name="boot_cpuset">وضع بارامترات لمراقبة وحدة منع الحمل</string>
+    <string name="boot_modify_mac">تعديل عنوان لجنة الهدنة العسكرية</string>
+    <string name="boot_charge_booster">التعجيل بفتح عملية إعادة الشحن...</string>
+    <string name="boot_use_powercfg">تطبيق تشكيلة مراقبة الحركة</string>
+    <string name="boot_resize_zram">إنشاء القدرة على إدارة الموارد الزراعية</string>
+    <string name="boot_swapon">إطلاق SWAP...</string>
+    <string name="boot_lmk">تعديل بارامترات المعارف التقليدية</string>
+    <string name="boot_freeze">تحرير التحيزات</string>
+    <string name="flash_confirm">اعتراف؟</string>
+    <string name="scene_addin_miss">عدم وجود مجموعة رفيعة المستوى</string>
+    <string name="scene_addin_miss_desc">يرجى تحميل تركيب &amp;quot; Scene-High Set &amp;quot; من Scene ووضعه كرخصة للبدء!</string>
+    <string name="scene_addin_sync_fail">Snchronized Xposed set failure from the &amp;quot; Scene-High Set &amp;quot; component!</string>
+    <string name="scene_install_autoclick">تركيب الضربات</string>
+    <string name="scene_install_autoclick_desc">تركيب تطبيقات طرف ثالث، يساعدك تلقائيا على &amp;quot; الخطوة التالية &amp;quot; و &amp;quot; التركيب &amp;quot;</string>
+    <string name="scene_install_skip_ad">الإعلان</string>
+    <string name="scene_install_skip_ad_desc">ومن شأن الضربات الآلية ل &amp;quot; التصفية &amp;quot; ، التي يمكن أن تساعدك على التصفية التلقائية لبعض الإعلانات المفتوحة، أن تقلل من الأداء المنهجي ووجود تقييمات للأخطاء\n* تستخدم فقط في النص القصير.</string>
+    <string name="scene_install_skip_ad_precise">الإعلان +</string>
+    <string name="scene_install_skip_ad_precise_desc">استخدام سجلات التقطيع لاستهداف مرشحين خاصين</string>
+    <string name="scene_install_skip_ad_warn">الإعلان عن التدفقات هو مصدر هام للدخل لبعض مطوري البرامجيات/الشركات، وإذا لم يكن وقتك مستعجلاً جداً، يُقترح أن تنظر وتضغط على محتوى الإعلان الذي تحبه.</string>
+    <string name="perf_opt">الاستجابة الحيوية</string>
+    <string name="permission_modify_fail">عدم تغيير السلطة!</string>
+    <string name="scene_need_write_sys_settings">يُرجى السماح لسين بأن يكون &amp;quot; معدلا &amp;quot; .</string>
+    <string name="start_app_fail">ابدأوا بالفشل</string>
+    <string name="scene_need_notic_listing">يرجى السماح &amp;quot; لهيئة الإخطار &amp;quot; التابعة لسين.</string>
+    <string name="scene_create_shortcut_action">com.omarea.vtools.CreateShortcut</string>
+    <string name="scene_speed_compile">com.omarea.vtools.SpeedCompile</string>
+    <string name="scene_speed_profile_compile">com.omarea.vtools.SpeedProfileCompile</string>
+    <string name="scene_everything_compile">com.omarea.vtools.EverythingCompile</string>
+    <string name="scene_reset_compile">com.omarea.vtools.ResetCompile</string>
+    <string name="scene_contract_title">بيان المخاطر</string>
+    <string name="scene_contract">Scene是一款面向玩机爱好者的应用，使用它需要拥有优秀的视力、阅读理解能力和良好的心态。\n\n使用过程中可能出现无法预料的错误，导致数据丢失，甚至无法正常开机。\n\n请务必不要在你[用于工作]或者存有[重要数据]的手机上使用，以免造成损失！\n\n使用过程中，务必仔细阅读提示信息谨慎操作，不要轻易拨动不理解的功能选项！\n\n此外，本应用作者不保证会提供使用帮助和故障恢复建议！</string>
+    <string name="permission_float">يُرجى النص على ولاية المشهد لإظهار نافذة من السلطة المعلقة!</string>
+    <string name="lmk_optimize_desc">(د) السماح لسين بتعديل بارامتر LMK تلقائياً وفقاً لقدراتكم في مجال إدارة السجلات والمحفوظات، مما يعزز قدرة المكتب الخلفي (التي قد تؤدي إلى انخفاض نهاية الحياة في كاتون). إذا أُعيد العمل، يُرجى إغلاق خيار إعادة إطلاق الهاتف المحمول، والسماح، عند الاقتضاء، ببدء مجموعة الأدوات بنفسها</string>
+    <string name="lmk_optimize">انخفاض التخزين الداخلي إلى الحد الأمثل</string>
+    <string name="low_memory_killer">قاتل الذاكرة المنخفضة</string>
+    <string name="busybox_nonsupport">(بوسي بوكس) مدمج من قبل (سين) لا يدعم نظامك الحالي ويطلب منك أن تنزيل وتركيب (بوس بوكس)</string>
+    <string name="dex2oat_completed">أكملت الخلاصة</string>
+    <string name="dex2oat_compiling">Translation of dex2oat</string>
+    <string name="dex2oat_reset_running">استبدال Dex2oat</string>
+    <string name="freeze_shortcut_lost">الخسارة المعجلة</string>
+    <string name="freeze_shortcut_lost_desc">هل النهج السريع المفقود أو غير ناجح ويعاد إنشاؤه على الفور، بعد تطبيق النموذج المتحيز؟</string>
+    <string name="freeze_disable_completed">الطلبات المجمدة</string>
+    <string name="freeze_enable_completed">الطلبات غير المجمدة</string>
+    <string name="freeze_shortcut_add_success">أنجز</string>
+    <string name="freeze_shortcut_add_fail">Loss of creation</string>
+    <string name="freeze_batch_add">Synthesis added</string>
+    <string name="freeze_batch_add_wran">ومن المرجح أن تفشل الصيغة السريعة للزيادات في الحجم، ويمكنك أن تبعث بنهج سريع واحد إلى الجدول على أساس مخطط الطلب.</string>
+    <string name="freeze_entrance_changed">الشعار يظهر حالة تغيير</string>
+    <string name="freeze_shortcut_delete_desc">قد تحتاج للانتقال بعيدا عن نهج المسار السريع المضافة!</string>
+    <string name="wallpaper_rw_permission">الحاجة إلى &amp;quot; قراءة وكتابة التخزين المحلي &amp;quot; من أجل استخدام ورق الجدار النظامي كخلفية للبرامجيات</string>
+    <string name="shortcut_create_fail">فشل سريع</string>
+    <string name="shortcut_create_success">الطلبات المرسلة في البداية السريعة</string>
+    <string name="shortcut_create">إضافة نهج المسار السريع</string>
+    <string name="shortcut_create_desc">هل ترغب في إضافة%sإلى الطاولة لتسهيل الاستخدام السريع؟</string>
+    <string name="ushortcut_nsupported">هذه المهمة لا تدعم المسار السريع</string>
+    <string name="btn_copy_output">الاستنساخ</string>
+    <string name="copy_success">النجاح</string>
+    <string name="copy_fail">الفشل في الإنجاب</string>
+    <string name="promote_link">https://tinyurl.com/y3j7vszf</string>
+    <string name="kr_write_external_storage">الحاجة إلى القراءة والكتابة</string>
+    <string name="kr_page_before_load">إعداد تشكيلة التحليل</string>
+    <string name="kr_page_loading">موجز</string>
+    <string name="kr_page_after_load">موجز أُنجز</string>
+    <string name="kr_page_sh_invalid">ناتج توزيع الصفحات غير الفعال</string>
+    <string name="kr_page_sh_file_permission">No or no reading authority for a designated formation</string>
+    <string name="kr_page_load_fail">الفشل</string>
+    <string name="kr_page_load_success">الصفحات بنجاح</string>
+    <string name="kr_auto_run_item_losted">Loss of designated items</string>
+    <string name="magisk_install_desc">ويدير المشهد معظم التغييرات في النظام، وهو متاح الآن في شكل وحدة ماغسك. مع ذلك، ستوافقون أولاً على أن (سين) ستضع تلقائياً وحدات إضافية على هاتفك النقال ويعيد تشغيل الهاتف المحمول (التوصية)</string>
+    <string name="magisk_install_title">وحدة ملحقات المشهد</string>
+    <string name="cache_recycle">حاجز الإنعاش</string>
+    <string name="dynamic_auto_disabled">وقد تم الكشف عن اقتناء الوثائق، وتمت آلية الاستجابة الدينامية.</string>
+    <string name="app_donate">التقدير</string>
+    <string name="app_nav">الوظائف</string>
+    <string name="app_home">لمحة عامة</string>
+    <string name="system_scene_next_task">الولاية المقبلة</string>
+    <string name="system_scene_resume_charge">إعادة الشحن</string>
+    <string name="system_scene_battery_left">الكهرباء تحت</string>
+    <string name="system_scene_battery_right">ارتفاع الكهرباء</string>
+    <string name="system_scene_stop_charge">وقف إعادة الشحن</string>
+    <string name="system_scene_task_canceled">ألغيت الولاية</string>
+    <string name="system_scene_timing_task">ولايتي العادية</string>
+    <string name="system_scene_trigger">محفزي</string>
+    <string-array name="process_sort_modes">
+        <item>By CPU</item>
+        <item>RES</item>
+        <item>PID</item>
+        <item>لا ترتيب</item>
+    </string-array>
+    <string-array name="process_filter">
+        <item>التطبيقات العامة</item>
+        <item>تطبيقات النظام</item>
+        <item>جميع التطبيقات</item>
+        <item>عمليات أخرى</item>
+        <item>جميع الأنواع</item>
+    </string-array>
+    <string-array name="start_dir_options">
+        <item>/sdcard</item>
+        <item>/system/etc</item>
+        <item>/vendor/etc</item>
+    </string-array>
+    <string name="power_shutdown_cmd">sync;svc power shutdown || reboot -p;</string>
+    <string name="power_reboot_cmd">sync;svc power reboot || reboot;</string>
+    <string name="power_hot_reboot_cmd">sync;am restart || busybox killall system_server;</string>
+    <string name="power_fastboot_cmd">sync;reboot bootloader;</string>
+    <string name="power_recovery_cmd">sync;reboot recovery;</string>
+    <string name="power_emergency_cmd">sync;reboot edl;</string>
+    <string name="miui_thermal_desc">点击右上角的菜单，选择并编辑温控文件，编辑完成后点击保存~\n\n注意：随着安卓系统不断更新，要修改系统分区变得越来越困难，可能修改无法成功保存，或重启后即被自动还原，建议使用magisk模块来完成温控修改！\n\n温控文件一般是在/system/etc或/vendor/etc目录下，名称以“thermal”开头，后缀为“.conf”</string>
+    <string name="monitor_process_unsupported">مديري العمليات لا يتوافقون مع هواتفكم المحمولة</string>
+    <string name="label_scene_misc_settings">تركيبات متنوعة</string>
+    <string name="label_hidden_uninstall_apps">تطبيق [التوقيف/التحميل]</string>
+    <string name="label_app_scene">المناظر الطبيعية للتطبيقات</string>
+    <string name="label_scene_mode_service">Scene - landscape model</string>
+    <string name="label_notification_filter_service">الإخطار بخدمات التصفية</string>
+</resources>

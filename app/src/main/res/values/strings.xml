@@ -490,4 +490,10 @@
     <string name="power_emergency_cmd">sync;reboot edl;</string>
     <string name="miui_thermal_desc">点击右上角的菜单，选择并编辑温控文件，编辑完成后点击保存~\n\n注意：随着安卓系统不断更新，要修改系统分区变得越来越困难，可能修改无法成功保存，或重启后即被自动还原，建议使用magisk模块来完成温控修改！\n\n温控文件一般是在/system/etc或/vendor/etc目录下，名称以“thermal”开头，后缀为“.conf”</string>
     <string name="monitor_process_unsupported">进程管理器暂未兼容你的手机！</string>
+
+    <string name="label_scene_misc_settings">Scene 杂项设置</string>
+    <string name="label_hidden_uninstall_apps">[隐藏/卸载]的应用</string>
+    <string name="label_app_scene">应用场景</string>
+    <string name="label_scene_mode_service">Scene - 场景模式</string>
+    <string name="label_notification_filter_service">通知过滤服务</string>
 </resources>
