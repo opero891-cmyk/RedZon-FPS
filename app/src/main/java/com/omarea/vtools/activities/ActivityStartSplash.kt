@@ -125,7 +125,7 @@ class ActivityStartSplash : Activity() {
      * 开始检查必需权限
      */
     private fun checkPermissions() {
-        checkRoot()
+        startToFinish()
     }
 
     private class CheckFileWirte(private val context: ActivityStartSplash) : Runnable {
